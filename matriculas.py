@@ -1,15 +1,3 @@
-#Colegio republica de chillan
-#necesitamos gestionar el proceso de matriculas, además del pago
-#de centro de padres y mensualidades
-#1) se paga solo una vez la matrícula, pero puede pagar mas de 1 mensualidad.
-#2)entre 3 a 5 mens, 6%dcto. entre 6-12 10%. Si paga todo junto 20%
-#se pide programa que permita determinar el total a pagar.
-# el menú debe presentar los valores
-#1)el pago determina el total, y si es que tiene descuento
-#2)se despliega el total y emite gracias por confiar en nosotros
-#3)anular compra y volver a mostrar el menú desde 0
-#4)salir del programa
-#TODOS los descuentos se aplican al total a pagar.
 import os
 def cls():
     os.system("cls")
